@@ -1,0 +1,7 @@
+- hosts: all
+  order: sorted
+  tasks:
+  - name: Python script execution
+    script: createfile.py
+    args:
+     executable: python
