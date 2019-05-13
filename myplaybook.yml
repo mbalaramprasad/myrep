@@ -2,6 +2,6 @@
   order: sorted
   tasks:
   - name: Python script execution
-    script: createfile.py
+    script: /home/ec2-user/temp/createfile.py
     args:
      executable: python
